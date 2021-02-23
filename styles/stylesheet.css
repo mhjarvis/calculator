@@ -1,13 +1,12 @@
 body {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-}
-* {
-    box-sizing: border-box;
+    background-color: black;
 }
 h1 {
     text-align: center;
     font-size: 4em;
+    color: white;
 }
 #container {
     width: 500px;
@@ -22,14 +21,24 @@ h1 {
     height: 100px;
     background-color: rgb(110, 110, 107);
     margin: auto;
+    margin-top: 25px;
     border-radius: 4px;
 }
-#display p {
+#displayP {
     color: white;
     font-size: 4em;
     text-align: right;
-    margin: 20px 0 0 0;
-    padding: 30px 10px 0 0;
+    margin: 0 0 0 0;
+    padding-right: 10px;
+}
+#sub-display {
+    font-size: 1.5em;
+    text-align: right;
+    color: white;
+    margin: 0;
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 1.1em;
 }
 #keypad {
     text-align: center;
@@ -53,7 +62,20 @@ h1 {
 }
 #clear {
     width: 200px;
+    background-color: rgb(194, 62, 62);
 }
 #equals {
     width: 200px;
+}
+#delete {
+    background-color: rgb(80, 136, 168);
+}
+#equals {
+    background-color: rgb(51, 172, 51);
+}
+#decimal {
+    background-color: rgb(130, 101, 211);
+}
+#add, #multiply, #divide, #subtract {
+    background-color: rgb(187, 119, 42);
 }
